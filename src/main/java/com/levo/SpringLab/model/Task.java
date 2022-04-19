@@ -1,10 +1,16 @@
 package com.levo.SpringLab.model;
 
+
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
 public class Task {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     Integer id;
+
     String title;
     String content;
     Date date;
