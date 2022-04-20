@@ -1,4 +1,4 @@
-package com.levo.SpringLab.repositories;
+package com.levo.SpringLab.repository;
 
 import com.levo.SpringLab.model.Task;
 import org.springframework.data.repository.CrudRepository;

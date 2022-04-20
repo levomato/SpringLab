@@ -4,7 +4,7 @@ package com.levo.SpringLab.model;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
+@Entity(name="task")
 public class Task {
 
     @Id
